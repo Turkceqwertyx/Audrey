@@ -1,9 +1,6 @@
-﻿# The script of the game goes in this file.
-
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
-
-define e = Character("Eileen")
+﻿# Define Characters
+define k = Character("Klein Moretti")
+define z = Character("Zhou Mingrui")
 
 
 # The game starts here.
@@ -20,13 +17,11 @@ label start:
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show eileen happy
+    show z angry
 
-    # These display lines of dialogue.
-
-    e "You've created a new Ren'Py game."
-
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    z "Painful!"
+    z "How painful!"
+    z "My head hurts so badly!"
 
     # This ends the game.
 
